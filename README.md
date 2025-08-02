@@ -29,15 +29,15 @@ A powerful, feature-rich command-line podcast client that brings the full podcas
 
 **Ubuntu/Debian:**
 
-sudo apt install mpv socat
+`sudo apt install mpv socat`
 
 **macOS:**
 
-brew install mpv socat
+`brew install mpv socat`
 
 **Arch Linux:**
 
-sudo pacman -S mpv socat
+`sudo pacman -S mpv socat`
 
 ## 🛠️ System Requirements
 
@@ -48,7 +48,7 @@ sudo pacman -S mpv socat
 
 First-time setup is required to configure your free API credentials:
 
-podcli setup
+`podcli setup`
 
 This will guide you through:
 1. Getting free API credentials from [podcastindex.org](https://podcastindex.org/login)
@@ -69,16 +69,18 @@ This will guide you through:
 ### Examples
 
 Search for podcasts
-podcli search "huberman lab"
-podcli search "artificial intelligence"
-podcli search "the tim ferriss show"
+`podcli search "huberman lab"`
+
+`podcli search "artificial intelligence"`
+
+`podcli search "the tim ferriss show"`
 
 Manage subscriptions
-podcli subscriptions
+`podcli subscriptions`
 
 OPML operations
-podcli export-opml
-podcli import-opml my_podcasts.opml
+`podcli export-opml`
+`podcli import-opml my_podcasts.opml`
 
 
 ## ⌨️ Keyboard Shortcuts Reference
