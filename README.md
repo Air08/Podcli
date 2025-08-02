@@ -60,6 +60,7 @@ First-time setup is required to configure your free API credentials:
 ```bash
 podcli setup
 ```
+https://github.com/Air08/Podcli/issues/1#issue-3285936173
 
 This will guide you through:
 1. Getting free API credentials from [podcastindex.org](https://podcastindex.org/login)
