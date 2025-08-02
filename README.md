@@ -21,14 +21,28 @@ pipx install podcli
 ### Using pip
 pip install podcli==1.0.1 (podcli == whatever the latest version is for example 1.0.1 or 1.0.2 and so on)
 
+## After Podcli is installed 
+
+### Install
+- `mpv` - For optimal audio playback experience
+- `socat` - For live progress tracking/ To continue the episode from where you left off.
+
+**Ubuntu/Debian:**
+
+sudo apt install mpv socat
+
+**macOS:**
+
+brew install mpv socat
+
+**Arch Linux:**
+
+sudo pacman -S mpv socat
+
 ## 🛠️ System Requirements
 
 ### Required
 - Python 3.7+
-
-### Recommended
-- `mpv` - For optimal audio playback experience
-- `socat` - For live progress tracking/ To continue the episode from where you left off.
 
 ## 🔧 Setup
 
@@ -107,24 +121,10 @@ podcli import-opml my_podcasts.opml
 - **OPML Support**: Easy migration to/from other podcast apps
 - **Download Management**: Organized offline storage with progress bars
 
-### Installation Commands by Platform
-
-**Ubuntu/Debian:**
-
-sudo apt install mpv socat
-
-**macOS:**
-
-brew install mpv socat
-
-**Arch Linux:**
-
-sudo pacman -S mpv socat
-
 ## 🤝 Contributing
 
 We welcome contributions! Please feel free to submit issues, feature requests, or pull requests.
 
-
-
+## ❤️ Support 
+https://buymeacoffee.com/pawantikar
 
