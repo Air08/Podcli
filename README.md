@@ -15,11 +15,14 @@ A powerful, feature-rich command-line podcast client that brings the full podcas
 ## 🚀 Installation
 
 ### Using pipx (Recommended)
-`pipx install podcli`
+```bash
+pipx install podcli
+```
 
 ### Using pip
-`pip install podcli==1.0.1` 
-(podcli == whatever the latest version is for example 1.0.1 or 1.0.2 and so on)
+```bash
+pip install podcli==1.0.1
+```
 
 ## After Podcli is installed 
 
@@ -29,15 +32,21 @@ A powerful, feature-rich command-line podcast client that brings the full podcas
 
 **Ubuntu/Debian:**
 
-`sudo apt install mpv socat`
+```bash
+sudo apt install mpv socat
+```
 
 **macOS:**
 
-`brew install mpv socat`
+```bash
+brew install mpv socat
+```
 
 **Arch Linux:**
 
-`sudo pacman -S mpv socat`
+```bash
+sudo pacman -S mpv socat
+```
 
 ## 🛠️ System Requirements
 
@@ -48,7 +57,9 @@ A powerful, feature-rich command-line podcast client that brings the full podcas
 
 First-time setup is required to configure your free API credentials:
 
-`podcli setup`
+```bash
+podcli setup
+```
 
 This will guide you through:
 1. Getting free API credentials from [podcastindex.org](https://podcastindex.org/login)
@@ -69,19 +80,27 @@ This will guide you through:
 ### Examples
 
 Search for podcasts
-`podcli search "huberman lab"`
+```bash
+podcli search "huberman lab"
+```
+```bash
+podcli search "artificial intelligence"
+```
 
-`podcli search "artificial intelligence"`
-
-`podcli search "the tim ferriss show"`
+```bash
+podcli search "the tim ferriss show"
+```
 
 Manage subscriptions
-`podcli subscriptions`
+```bash
+podcli subscriptions
+```
 
 OPML operations
-`podcli export-opml`
-`podcli import-opml my_podcasts.opml`
-
+```bash
+podcli export-opml
+podcli import-opml my_podcasts.opml
+```
 
 ## ⌨️ Keyboard Shortcuts Reference
 
