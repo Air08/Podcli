@@ -15,11 +15,11 @@ A powerful, feature-rich command-line podcast client that brings the full podcas
 ## 🚀 Installation
 
 ### Using pipx (Recommended)
-pipx install podcli
-
+`pipx install podcli`
 
 ### Using pip
-pip install podcli==1.0.1 (podcli == whatever the latest version is for example 1.0.1 or 1.0.2 and so on)
+`pip install podcli==1.0.1` 
+(podcli == whatever the latest version is for example 1.0.1 or 1.0.2 and so on)
 
 ## After Podcli is installed 
 
