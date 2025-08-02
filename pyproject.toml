@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "podcli"
+version = "1.0.1"
+description = "Terminal Based Podcast Client with search, subscription management, and playback"
+readme = "README.md"
+requires-python = ">=3.7"
+authors = [
+    {name = "Pawan Tikar", email = "pawantikar08@gmail.com"}
+]
+keywords = ["podcast", "cli", "terminal", "audio", "rss"]
+dependencies = [
+    "requests",
+    "python-dotenv",
+    "tqdm",
+]
+
+[project.scripts]
+podcli = "podcli:main"
