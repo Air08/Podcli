@@ -9,7 +9,7 @@ description = "Terminal Based Podcast Client with search, subscription managemen
 readme = "README.md"
 requires-python = ">=3.7"
 authors = [
-    {name = "Pawan Tikar", email = "pawantikar08@gmail.com"}
+    {name = "Pawan Tikar"}
 ]
 keywords = ["podcast", "cli", "terminal", "audio", "rss"]
 dependencies = [
